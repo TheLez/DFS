@@ -1,0 +1,10 @@
+Phát triển TT 	| Trạng thái kề 	| Danh sách Q 	| Danh sách L
+A 		| B, C, D 		| A, B, C, D 		| D, B, C
+D 		| F 		| A, B, C, D, F 		| F, C, B
+F 		| K 		| A, B, C, D, F, K 		| K, B, C
+K 		|  		| A, B, C, D, F, K 		| B, C
+C 		| E 		| A, B, C, D, F, K, E 		| E, B
+E 		| G, K 		| A, B, C, D, F, K, E, G 		| G, B
+G 		| Tìm thấy-TTKT Dừng 		| null 		| null
+
+Đường đi là: A => C => E => G
